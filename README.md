@@ -35,6 +35,9 @@ The frontend runs on Vite and the backend runs on Express.
 
 ## GitHub Pages deployment note
 - GitHub Pages can host only the frontend static files.
+- In the repository's **Settings → Pages**, set the build and deployment source to **GitHub Actions**.
+- The deployment workflow runs on pushes to `main`. The site URL is:
+  `https://bhuvi-777.github.io/Power_system_loadflow_simulator/`
 - The `Run Load Flow` action needs the backend API (`POST /api/simulate`).
 - For hosted usage, deploy the backend separately (for example: Render/Railway) and set:
 

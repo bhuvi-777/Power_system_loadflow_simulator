@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Power-system-load-flow-simulator/',
+  base: '/Power_system_loadflow_simulator/',
   server: {
     port: 5173,
     proxy: {
